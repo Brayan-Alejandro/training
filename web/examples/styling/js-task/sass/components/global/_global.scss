@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: $black;
+  padding: 0 15px;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: $green;
+  font-size: 40px;
+  line-height: 1;
+  margin: .5em 0 .5em;
+}
+h2 {
+  color: $black;
+  font-size: 36px;
+  line-height: 1;
+}
+p {
+  color: $gray;
+  font-size: 18px;
+}
+img {
+  height: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 15px 0;
+  width: 100%;
+  @media screen and (min-width: $breakpoint-tablet-ipad) {
+    max-width: $breakpoint-tablet-ipad;
+  }
+  @media screen and (min-width: $breakpoint-tablet-ipad-landscape) {
+    max-width: $breakpoint-tablet-ipad-landscape;
+  }
+  @media screen and (min-width: $breakpoint-desktop) {
+    max-width: $breakpoint-desktop;
+  }
+  .il_container--box {
+    flex-grow: 1;
+    padding: 15px;
+  }
+}
