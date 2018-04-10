@@ -24,3 +24,4 @@
 
 # Ignore node modules on the custom theme
 /web/themes/custom/*/node_modules/
+/web/examples/styling/*/node_modules/
