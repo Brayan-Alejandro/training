@@ -48,6 +48,7 @@ vagrant_synced_folders:
     # Set the destination to the Acquia Cloud subscription machine name.
     destination: /var/www/bootcamp
     type: nfs
+    mount_options: ["rw","vers=3","udp","nolock"]
 
 drupal_build_composer_project: false
 # Toggling this to `true` would invoke `composer install` with the

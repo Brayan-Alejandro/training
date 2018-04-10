@@ -22,7 +22,9 @@
         "drupal/admin_toolbar": "^1.21",
         "drupal/bootstrap": "^3.10",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.5"
+        "drupal/core": "^8.5",
+        "drush/drush": "8.x.dev",
+        "symfony/var-dumper": "3.4.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.8.28 <5"
