@@ -1,0 +1,13 @@
+.slick-slider {
+  margin: auto;
+  width: 100%;
+  @media screen and (min-width: $breakpoint-tablet-ipad) {
+    max-width: $breakpoint-tablet-ipad;
+  }
+  @media screen and (min-width: $breakpoint-tablet-ipad-landscape) {
+    max-width: $breakpoint-tablet-ipad-landscape;
+  }
+  @media screen and (min-width: $breakpoint-desktop) {
+    max-width: $breakpoint-desktop;
+  }
+}

@@ -1,0 +1,10 @@
+// Default variables.
+@import "default-variables";
+// Font-Awesome.
+@import '../node_modules/font-awesome/scss/font-awesome.scss';
+// Global components.
+@import "components/global/colors";
+@import "components/global/fonts";
+@import "components/global/global";
+// Card.
+@import "components/card";
